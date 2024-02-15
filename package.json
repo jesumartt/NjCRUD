@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jesumartt/NjCRUD/issues"
   },
-  "homepage": "https://github.com/jesumartt/NjCRUD#readme"
+  "homepage": "https://github.com/jesumartt/NjCRUD#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
