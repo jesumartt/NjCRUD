@@ -13,3 +13,9 @@ mongoose.connect(
 app.listen(3000, ()=>{ //funcion flecha =>, reemplaza la palabra function 
      console.log("Servidor corriendo desde el puerto 3000")
 });
+//Implementacion del Schema para su uso
+const deporteSchema = require('./modelos/deporte');
+const router = express.Router();
+//Vamos a usar el formato por defecto de los navegadores
+app.use(express.urlencoded({extended:true}));
+
